@@ -1,0 +1,131 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.navbar{
+    height: 5rem;
+    background-color:white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #fe424d !important;
+}
+
+footer {
+    background-color: #0f172a; /* dark slate */
+    color: #f1f5f9; /* light text */
+    padding: 20px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.f-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.f-info-socials i {
+    font-size: 24px;
+    margin: 0 8px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.f-info-socials i:hover {
+    color: #38bdf8; /* sky blue on hover */
+    transform: scale(1.1);
+}
+
+.f-info-links a {
+    margin: 0 10px;
+    color: #f1f5f9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.f-info-links a:hover {
+    color: #38bdf8;
+}
+
+@media (max-width: 600px) {
+    .f-info {
+        flex-direction: column;
+    }
+}
+
+
+
+   .listing-card {
+     border: none !important;
+    margin-bottom: 2rem;
+   }
+
+.card-img-top{
+    border-radius:1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body{
+padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+/* Card effect*/
+
+.card-img-overlay{
+    opacity: 0;
+   
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+   background-color: white;
+}
+
+.btn-dark{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* edit btn */
+
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show image */
+.show-img{
+height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+#map {
+     height: 500px;
+     width: 85vh;
+     }
